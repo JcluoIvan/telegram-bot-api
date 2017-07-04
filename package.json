@@ -1,0 +1,18 @@
+{
+    "name": "telegram-bot-api",
+    "description": "etc...",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "webpack-dev-server --config ./build/webpack.dev.js",
+        "bundle": "webpack --config ./build/webpack.bundle.js",
+        "size": "webpack --config ./build/webpack.bundle.js --display-modules --sort-modules-by size",
+        "state": "webpack --config ./build/webpack.bundle.js --profile --json > state.json"
+    },
+    "dependencies": {
+        "node-telegram-bot-api":"0.27.1",
+        "moment": "2.18.1"
+    },
+    "devDependencies": {
+    }
+}
